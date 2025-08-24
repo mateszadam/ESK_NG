@@ -1,132 +1,210 @@
 [
   {
-    "date": "2025-08-09 17:00",
-    "teams": "FERTŐSZENTMIKLÓS SE - ESK MÉNFŐCSANAK",
-    "result": "0 - 1"
+    "home_team": "FERTŐSZENTMIKLÓS SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": "0 - 1",
+    "date": "2025. 08. 09.17:00",
+    "arena": "Fertőszentmiklósi SE",
+    "result_url": "https://adatbank.mlsz.hu/match/65/8/31658/1/2081328.html"
   },
   {
-    "date": "2025-08-17 18:30",
-    "teams": "ESK MÉNFŐCSANAK - ÜSTÖKÖS FC BÁCSA",
-    "result": "2 - 3"
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "ÜSTÖKÖS FC BÁCSA",
+    "result": "2 - 3",
+    "date": "2025. 08. 17.18:30",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": "https://adatbank.mlsz.hu/match/65/8/31658/2/2081331.html"
   },
   {
-    "date": "2025-08-23 17:00",
-    "teams": "CREDOBUS MOSONMAGYARÓVÁR - ESK MÉNFŐCSANAK",
-    "result": "3 - 3"
+    "home_team": "CREDOBUS MOSONMAGYARÓVÁR",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": "3 - 3",
+    "date": "2025. 08. 23.17:00",
+    "arena": "MTE 1904 Sporttelep",
+    "result_url": "https://adatbank.mlsz.hu/match/65/8/31658/3/2081340.html"
   },
   {
-    "date": "2025-08-31 17:00",
-    "teams": "ESK MÉNFŐCSANAK - VITNYÉD SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "VITNYÉD SE",
+    "result": null,
+    "date": "2025. 08. 31.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-09-07 17:00",
-    "teams": "KORONCÓ KSSZE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "KORONCÓ KSSZE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2025. 09. 07.17:00",
+    "arena": "Koroncó SE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-09-14 17:00",
-    "teams": "ESK MÉNFŐCSANAK - ABDA SC VVFK-BAU",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "ABDA SC VVFK-BAU",
+    "result": null,
+    "date": "2025. 09. 14.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-09-20 16:00",
-    "teams": "GYŐRÚJFALU SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "GYŐRÚJFALU SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2025. 09. 20.16:00",
+    "arena": "Győrújfalu SE sportpálya",
+    "result_url": null
   },
   {
-    "date": "2025-09-28 16:00",
-    "teams": "ESK MÉNFŐCSANAK - GYŐRÚJBARÁT SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "GYŐRÚJBARÁT SE",
+    "result": null,
+    "date": "2025. 09. 28.16:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-10-04 16:00",
-    "teams": "MEZŐÖRS KSE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "MEZŐÖRS KSE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2025. 10. 04.16:00",
+    "arena": "Mezőörs KSE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-10-12 15:00",
-    "teams": "ESK MÉNFŐCSANAK - KAPUVÁRI SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "KAPUVÁRI SE",
+    "result": null,
+    "date": "2025. 10. 12.15:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-10-19 14:00",
-    "teams": "GYIRMÓT FC GYŐR II. - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "GYIRMÓT FC GYŐR II.",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2025. 10. 19.14:00",
+    "arena": "ALCUFER Stadion",
+    "result_url": null
   },
   {
-    "date": "2025-10-25 17:00",
-    "teams": "CSORNAI SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "CSORNAI SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2025. 10. 25.17:00",
+    "arena": "Kocsis István Városi Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-11-02 14:00",
-    "teams": "ESK MÉNFŐCSANAK - WIESBAUER-GÖNYŰ SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "WIESBAUER-GÖNYŰ SE",
+    "result": null,
+    "date": "2025. 11. 02.14:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2025-11-09 14:00",
-    "teams": "ESK MÉNFŐCSANAK - FERTŐSZENTMIKLÓS SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "FERTŐSZENTMIKLÓS SE",
+    "result": null,
+    "date": "2025. 11. 09.14:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-03-14 15:00",
-    "teams": "ÜSTÖKÖS FC BÁCSA - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "ÜSTÖKÖS FC BÁCSA",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 03. 14.15:00",
+    "arena": "Bácsa FC SE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-03-22 16:00",
-    "teams": "ESK MÉNFŐCSANAK - CREDOBUS MOSONMAGYARÓVÁR",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "CREDOBUS MOSONMAGYARÓVÁR",
+    "result": null,
+    "date": "2026. 03. 22.16:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-03-28 16:00",
-    "teams": "VITNYÉD SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "VITNYÉD SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 03. 28.16:00",
+    "arena": "Vitnyédi SE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-04-05 17:00",
-    "teams": "ESK MÉNFŐCSANAK - KORONCÓ KSSZE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "KORONCÓ KSSZE",
+    "result": null,
+    "date": "2026. 04. 05.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-04-11 17:00",
-    "teams": "ABDA SC VVFK-BAU - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "ABDA SC VVFK-BAU",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 04. 11.17:00",
+    "arena": "Abda SC Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-04-19 17:00",
-    "teams": "ESK MÉNFŐCSANAK - GYŐRÚJFALU SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "GYŐRÚJFALU SE",
+    "result": null,
+    "date": "2026. 04. 19.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-04-25 17:00",
-    "teams": "GYŐRÚJBARÁT SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "GYŐRÚJBARÁT SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 04. 25.17:00",
+    "arena": "Győrújbarát SE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-05-03 17:00",
-    "teams": "ESK MÉNFŐCSANAK - MEZŐÖRS KSE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "MEZŐÖRS KSE",
+    "result": null,
+    "date": "2026. 05. 03.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-05-09 17:00",
-    "teams": "KAPUVÁRI SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "KAPUVÁRI SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 05. 09.17:00",
+    "arena": "Kapuvári SE Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-05-17 17:00",
-    "teams": "ESK MÉNFŐCSANAK - GYIRMÓT FC GYŐR II.",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "GYIRMÓT FC GYŐR II.",
+    "result": null,
+    "date": "2026. 05. 17.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-05-24 17:00",
-    "teams": "ESK MÉNFŐCSANAK - CSORNAI SE",
-    "result": ""
+    "home_team": "ESK MÉNFŐCSANAK",
+    "away_team": "CSORNAI SE",
+    "result": null,
+    "date": "2026. 05. 24.17:00",
+    "arena": "ESK Ménfőcsanak Sporttelep",
+    "result_url": null
   },
   {
-    "date": "2026-05-30 17:00",
-    "teams": "WIESBAUER-GÖNYŰ SE - ESK MÉNFŐCSANAK",
-    "result": ""
+    "home_team": "WIESBAUER-GÖNYŰ SE",
+    "away_team": "ESK MÉNFŐCSANAK",
+    "result": null,
+    "date": "2026. 05. 30.17:00",
+    "arena": "Gönyű SE",
+    "result_url": null
   }
 ]

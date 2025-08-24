@@ -47,8 +47,14 @@
   @for (item of data; track $index) {
   <tr>
     <td>{{ item.date }}</td>
-    <td>{{ item.teams }}</td>
+    <td>{{ item.home_team }} - {{ item.away_team }}</td>
     <td>{{ item.result }}</td>
+    <td>
+      @if(item.result_url){
+      <a href="{{ item.result_url }}" target="_blank">Eredmény</a>
+      }
+    </td>
   </tr>
+
   }
 </table>
