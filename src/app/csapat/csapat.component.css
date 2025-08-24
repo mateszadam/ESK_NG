@@ -1,0 +1,536 @@
+html,
+body {
+  height: auto;
+  overflow: auto;
+}
+.jatekosok {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(20, 165, 165, 0.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+}
+.nev {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  background-color: blue;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.list2 {
+  background: rgba(48, 81, 189, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transition: width 0.5s;
+  backdrop-filter: blur(15px);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list2 .item {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  list-style-type: none;
+}
+.list2 .item:hover {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.3s ease-in-out;
+  list-style-type: none;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.jatekoskeret {
+  text-align: center;
+  align-items: center;
+  z-index: 30;
+  color: azure;
+}
+.card {
+  background: rgba(48, 81, 189, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transition: width 0.5s;
+  border-top: 20px;
+}
+
+.card-img-top {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.alcim {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terkep {
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.nav2 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.csapatkep {
+  display: block;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 650px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+.visza {
+  text-align: center;
+  margin-top: 20px;
+  margin: auto;
+  width: 100%;
+}
+.textover img {
+  width: 100%;
+}
+.textover {
+  max-width: 600px;
+}
+.textover {
+  position: relative;
+}
+.textover figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.textover figcaption {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+figcaption {
+  font-size: 20px;
+}
+.cim3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  background-color: #1b58b9;
+  width: 10%;
+  min-width: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin: auto;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.egész {
+  height: auto;
+  overflow-y: hidden;
+}
+.card {
+  height: fit-content;
+}
+.card-img-top {
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+}
+.loader > div {
+  z-index: 1002;
+  height: 100px;
+  width: 100px;
+  border: 15px solid #222222;
+  border-top-color: blue;
+  border-bottom-color: aliceblue;
+  border-right-color: aliceblue;
+  border-left-color: blue;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 1.5s infinite backwards;
+}
+.loader > p {
+  z-index: 1002;
+  position: fixed;
+  margin-top: 200px;
+  width: 100%;
+  display: inline;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.loader > img {
+  width: 60px;
+  z-index: 1001;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin2 1.5s infinite linear;
+}
+.betöltszöveg {
+  font-size: xx-large;
+  color: blue;
+}
+.nyil {
+  z-index: 10;
+  height: 60px;
+  width: 60px;
+  border: 15px solid #ffffff;
+  background-color: #1b58b9;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  font-size: 29px;
+  color: antiquewhite;
+}
+.nyil:hover {
+  border-top-color: blue;
+  transition: all 1.5s;
+}
+.nyil:hover ion-icon {
+  animation: nyilfel 1.5s infinite;
+}
+@media (hover: none) {
+  .nyil:hover ion-icon {
+    animation: nyilfel 0s infinite;
+  }
+  .nyil {
+    border-top-color: blue;
+  }
+}
+
+@keyframes nyilfel {
+  0% {
+    transform: translateY(-0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes eltungif {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media screen and (max-height: 740px) {
+  .loader > p {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-height: 740px) {
+  .loader > p {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ala {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ala {
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ala {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .ala {
+    margin-left: 15%;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 220px) {
+  .ala {
+    font-size: 20px;
+  }
+}
+@keyframes eltun {
+  70% {
+    background: #222222;
+    width: 55%;
+  }
+  99% {
+    background: #222222;
+  }
+  100% {
+    background: #22222200;
+    width: 0;
+  }
+}
+@keyframes eltunszöveg {
+  0% {
+    color: aqua;
+  }
+  80% {
+    color: rgba(0, 255, 255, 0);
+    visibility: hidden;
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+    color: rgba(240, 248, 255, 0);
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+/* @media screen and (max-width: 1200px) {
+  .card {
+    height: 330px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .card {
+    height: 500px;
+  }
+  .csapatkep {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    height: 380px;
+  }
+  .csapatkep {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    height: 770px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card {
+    height: 750px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .card {
+    height: 730px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .card {
+    height: 700px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    height: 680px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .card {
+    height: 660px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .card {
+    height: 640px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .card {
+    height: 600px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .card {
+    height: 600px;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .card {
+    height: 560px;
+  }
+  .csapatkep {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .card {
+    height: fit-content;
+  }
+  .csapatkep {
+    height: 200px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .alcim {
+    font-size: 40px;
+  }
+  .card {
+    height: 460px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .card {
+    height: 400px;
+  }
+  .csapatkep {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .card {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 150px) {
+  .card {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .topnav {
+    position: absolute;
+  }
+  .navbar {
+    position: unset;
+  }
+  .list2 {
+    margin-top: 60px;
+  }
+} */
+.invisible {
+  height: auto;
+}
+.emel {
+  transform: translateY(-20px);
+}

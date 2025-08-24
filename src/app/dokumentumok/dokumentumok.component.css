@@ -1,0 +1,52 @@
+.tamogatascim {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+.tamogatastable {
+  text-align: center;
+  vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.tamogatastable td {
+  width: 50%;
+}
+.retek {
+  font-size: 50px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+.taokep {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+@media screen and (max-width: 1200px) {
+  .taokep {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .taokep {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .taokep {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .taokep {
+    height: 100px;
+  }
+}

@@ -1,0 +1,54 @@
+<div class="emel">
+  <h1 class="cim">LAVILL Esk Ménfőcsanak</h1>
+  <h1 class="cim2">Mérkőzések</h1>
+  <br />
+  <!-- <div class="navbar">
+            <ul class="list2">
+                <a href="#Felnot">
+                    <li class="item">
+                        <p class="nav2">Felnőtt</p>
+                    </li>
+                </a>
+                <a href="#U20">
+                    <li class="item">
+                        <p class="nav2">u20</p>
+                    </li>
+                </a>
+                <a href="#U19">
+                    <li class="item">
+                        <p class="nav2">u19</p>
+                    </li>
+                </a>
+                <a href="#U17">
+                    <li class="item">
+                        <p class="nav2">u17</p>
+                    </li>
+                </a>
+                <a href="#U16">
+                    <li class="item">
+                        <p class="nav2">u16</p>
+                    </li>
+                </a>
+                <a href="#U15">
+                    <li class="item">
+                        <p class="nav2">u15</p>
+                    </li>
+                </a>
+            </ul> -->
+</div>
+<table class="table1">
+  <th class="alcim" colspan="5">Vármegyei I. osztály</th>
+  <tr>
+    <th>Dátum</th>
+    <th>Csapatok</th>
+    <th>Eredmény</th>
+    <th>Mlsz adatbank</th>
+  </tr>
+  @for (item of data; track $index) {
+  <tr>
+    <td>{{ item.date }}</td>
+    <td>{{ item.teams }}</td>
+    <td>{{ item.result }}</td>
+  </tr>
+  }
+</table>

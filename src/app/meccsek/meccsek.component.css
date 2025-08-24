@@ -1,0 +1,152 @@
+.table1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background: rgba(20, 165, 165, 0.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  color: black;
+  text-align: center;
+}
+.oszefaglo {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 165, 165, 0.05),
+    rgba(9, 29, 143, 0.4)
+  );
+}
+.kerek {
+  border-top-right-radius: 20px;
+}
+.kerek2 {
+  border-bottom-right-radius: 20px;
+}
+.jatekosok p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.szoveg {
+  color: black;
+}
+.szoveg:hover {
+  color: black;
+}
+.oszeszoveg {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.jatekosok {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(20, 165, 165, 0.12);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+}
+.jatekoskeret {
+  margin-top: 30px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+.oszefoglalokep1 {
+  width: 600px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.oszefoglalokep2 {
+  margin-left: 10px;
+  height: 200px;
+  float: left;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+table {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.alcim {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+}
+.modal-content {
+  background: rgb(45, 131, 212);
+}
+.modal {
+  backdrop-filter: blur(1.5px);
+}
+.modal-body p {
+  margin-bottom: 5px;
+}
+.btn {
+  font-size: 12px;
+}
+.beljebb {
+  transform: translateX(50px);
+  width: 70%;
+}
+@media screen and (max-width: 721px) {
+  .icon {
+    position: absolute;
+  }
+  .table1 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .oszefoglalokep1 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .oszefoglalokep1 {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .oszefoglalokep1 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .topnav {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 500px) {
+  .oszefoglalokep2 {
+    width: 90%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .topnav {
+    position: absolute;
+  }
+  .navbar {
+    position: unset;
+  }
+}

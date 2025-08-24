@@ -1,0 +1,6 @@
+/* Ensure the main app container allows scrolling */
+:host {
+  display: block;
+  height: 100vh;
+  overflow-y: auto;
+}

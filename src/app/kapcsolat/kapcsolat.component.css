@@ -1,0 +1,133 @@
+.kapcskep {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 20px;
+}
+.kapcsszoveg {
+  margin: 1px;
+}
+.kapcsikon {
+  position: relative;
+  font-size: 30px;
+}
+.kapcs {
+  list-style-type: none;
+  text-align: center;
+}
+.list {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.icon {
+  font-size: 20px;
+}
+.kapcslist {
+  color: black;
+}
+.kapcslist:hover {
+  color: black;
+  text-decoration: none;
+}
+.kapcslist:hover .title {
+  color: black;
+  text-decoration: underline;
+}
+.title2 {
+  font-size: 30px;
+}
+.card-img-top {
+  max-width: 100px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ember {
+  width: 10%;
+}
+.üzenetcim {
+  text-align: center;
+  font-size: 50px;
+}
+.kapcskep {
+  border-radius: 20px;
+}
+.leirastelo {
+  margin-top: 90px;
+}
+.elérketőség {
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .title2 {
+    font-size: 20px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .brake {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .title2 {
+    font-size: 25px;
+  }
+  .icon {
+    text-align: center;
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 1860px) {
+  .title2 {
+    font-size: 40px;
+  }
+  .icon {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 2350px) {
+  .title2 {
+    font-size: 60px;
+  }
+  .icon {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .title2 {
+    font-size: 15px;
+  }
+  .icon {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .gmap_canvas {
+    margin-top: 250px;
+  }
+}
+@media screen and (max-height: 500px) {
+  .gmap_canvas {
+    margin-top: 350px;
+  }
+}
+@media screen and (max-height: 400px) {
+  .gmap_canvas {
+    margin-top: 450px;
+  }
+}
+@media screen and (max-height: 2900px) {
+  .form {
+    margin-top: 190px;
+  }
+}

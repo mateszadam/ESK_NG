@@ -1,0 +1,52 @@
+.szoveg {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+b {
+  font-size: 30px;
+}
+li {
+  font-size: 20px;
+}
+p {
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+.tortlist {
+  transform: translateX(20px);
+  color: black;
+}
+.történelemkép {
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1200px) {
+  .történelemkép {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .történelemkép {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .történelemkép {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .történelemkép {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  b {
+    font-size: 20px;
+  }
+}
