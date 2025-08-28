@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import ftplib
 
 URL = "https://adatbank.mlsz.hu/club/65/8/31658/3/310516.html"
 
@@ -54,6 +55,6 @@ def fetch_schedule(url):
 if __name__ == "__main__":
   schedule = fetch_schedule(URL)
   print(schedule)
-  with open("../src/app/meccsek/data.json", "w", encoding="utf-8") as f:
-    json.dump(schedule, f, ensure_ascii=False, indent=2)
 
+  with open("./public/data.json", "w", encoding="utf-8") as f:
+    json.dump(schedule, f, ensure_ascii=False, indent=2)

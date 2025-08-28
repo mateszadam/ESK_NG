@@ -18,4 +18,5 @@ export const routes: Routes = [
   { path: 'tamogatok', component: TamogatokComponent },
   { path: 'tortenet', component: TortenetComponent },
   { path: 'vezetoseg', component: VezetosegComponent },
+  { path: '**', redirectTo: '' },
 ];
