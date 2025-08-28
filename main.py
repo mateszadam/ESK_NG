@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import ftplib
+import re
 
 URL = "https://adatbank.mlsz.hu/club/65/8/31658/3/310516.html"
 
@@ -38,7 +39,11 @@ def fetch_schedule(url):
     home_team = fix_encoding(home_team)
     away_team = fix_encoding(away_team)
     result_text = fix_encoding(result_text)
+    # Fix encoding and format date
     date = fix_encoding(date)
+    if date:
+      # Insert a space before the hour if missing (e.g., "2025. 08. 09.17:00" -> "2025. 08. 09. 17:00")
+      date = re.sub(r'(\d{2}\.\s\d{2}\.\s\d{2}\.)(\d{2}:\d{2})', r'\1 \2', date)
     arena = fix_encoding(arena)
 
     output.append({

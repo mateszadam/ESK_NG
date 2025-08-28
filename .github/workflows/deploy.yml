@@ -48,7 +48,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/esk-ng/browser/
           server-dir: /web/
-          exclude: |
-            images/**
-            pdf/**
-            slideshowPhotoshop/**
