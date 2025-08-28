@@ -46,7 +46,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/dist/esk-ng/browser/
+          local-dir: ./dist/esk-ng/browser/
           server-dir: /web/
           exclude: |
             images/**
