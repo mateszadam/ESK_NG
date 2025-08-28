@@ -3,7 +3,7 @@ name: Deploy Angular via FTP
 on:
   push:
     branches:
-      - main   # or whichever branch you want to deploy
+      - master # or whichever branch you want to deploy
 
 jobs:
   deploy:
@@ -17,24 +17,24 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Run Python script
-        run: python your_script.py
+        run: python main.py
 
       # Build Angular project
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # or the version you need
+          node-version: "18" # or the version you need
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./your-angular-project
+        working-directory: .
 
       - name: Build Angular
         run: npm run build -- --configuration production
-        working-directory: ./your-angular-project
+        working-directory: .
 
       # Upload via FTP
       - name: Deploy via FTP
