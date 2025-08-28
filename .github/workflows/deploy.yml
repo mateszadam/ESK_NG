@@ -1,0 +1,51 @@
+name: Deploy Angular via FTP
+
+on:
+  push:
+    branches:
+      - main   # or whichever branch you want to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Run Python script
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Python script
+        run: python your_script.py
+
+      # Build Angular project
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # or the version you need
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./your-angular-project
+
+      - name: Build Angular
+        run: npm run build -- --configuration production
+        working-directory: ./your-angular-project
+
+      # Upload via FTP
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/dist/esk-ng/browser
+          server-dir: /web
+          exclude: |
+            images/**
+            pdf/**
+            slideshowPhotoshop/**
