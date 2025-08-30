@@ -37,11 +37,10 @@ jobs:
       - name: Run Python script
         run: python main.py
 
-      # Build Angular project
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18" # or the version you need
+          node-version: "18"
 
       - name: Cache Node.js dependencies
         uses: actions/cache@v4
@@ -61,7 +60,10 @@ jobs:
         run: npm run build -- --configuration production
         working-directory: .
 
-      # Upload via FTP
+  upload:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
