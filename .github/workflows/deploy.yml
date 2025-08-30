@@ -3,21 +3,20 @@ name: Deploy Angular via FTP
 on:
   push:
     branches:
-      - master # or whichever branch you want to deploy
+      - master
   schedule:
     - cron: "0 21 * * 2"
     - cron: "0 21 * * 6"
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Run Python script
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
