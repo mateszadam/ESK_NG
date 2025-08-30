@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master # or whichever branch you want to deploy
+  schedule:
+    - cron: "0 21 * * 2"
+    - cron: "0 21 * * 6"
+  workflow_dispatch:
 
 jobs:
   deploy:
