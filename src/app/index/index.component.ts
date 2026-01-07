@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { IonIcon } from '@ionic/angular/standalone';
 import data from '../../../public/data.json';
 
@@ -8,8 +8,10 @@ import data from '../../../public/data.json';
   templateUrl: './index.component.html',
   styleUrl: './index.component.css',
 })
-export class IndexComponent {
+export class IndexComponent implements AfterViewInit {
   myIndex: number = 0;
+  private readonly hideForMin = 5;
+  private readonly storageKey = 'promoModalHiddenUntil';
 
   ngOnInit() {
     // data is an array of match objects
@@ -75,5 +77,61 @@ export class IndexComponent {
     (x[this.myIndex - 1] as HTMLElement).style.display = 'block';
     console.log(document.body.offsetWidth);
     setTimeout(() => this.carousel(), 2000); // Change image every 2 seconds
+  }
+
+  private shouldShow(): boolean {
+    try {
+      const value = localStorage.getItem(this.storageKey);
+      if (!value) return true;
+      const until = parseInt(value, 10);
+      return Date.now() > until;
+    } catch (e) {
+      return true;
+    }
+  }
+
+  private setHideUntil(min: number): void {
+    try {
+      const until = Date.now() + min * 60 * 1000;
+      localStorage.setItem(this.storageKey, String(until));
+    } catch (e) {}
+  }
+
+  ngAfterViewInit(): void {
+    this.initPromoModal();
+  }
+
+  private initPromoModal(): void {
+    const modal = document.getElementById('promoModal');
+    if (!modal) {
+      return;
+    }
+    const closeBtn = modal.querySelector('.promo-close') as HTMLElement | null;
+    if (!closeBtn) {
+      return;
+    }
+
+    const closeModal = (setHide: boolean): void => {
+      modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
+      setTimeout((): void => {
+        modal.style.display = 'none';
+      }, 1000);
+      if (setHide) {
+        this.setHideUntil(this.hideForMin);
+      }
+    };
+
+    if (!this.shouldShow()) {
+      modal.style.display = 'none';
+      return;
+    }
+
+    modal.style.display = 'flex';
+    modal.setAttribute('aria-hidden', 'false');
+
+    closeBtn.addEventListener('click', () => {
+      closeModal(true);
+    });
   }
 }
