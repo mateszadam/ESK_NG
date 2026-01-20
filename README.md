@@ -1,4 +1,4 @@
-# ESK_NG - Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület Website
+# ESK_NG - ESK Ménfőcsanak Labdarúgó Egyesület
 
 This is the source code for the official website of **Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület**. The application is built using **Angular** and **Ionic**, featuring automated data updates for match schedules.
 
