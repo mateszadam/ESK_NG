@@ -1,59 +1,46 @@
-# ESKNG
+# ESK_NG - Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.14.
+This is the source code for the official website of **Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület**. The application is built using **Angular** and **Ionic**, featuring automated data updates for match schedules.
 
-## Development server
+## Project Overview
 
-To start a local development server, run:
+- **Data Integration**: Python automation to scrape match data from [MLSZ Adatbank](https://adatbank.mlsz.hu).
+- **CI/CD**: GitHub Actions workflow deals with data updates, building, and FTP deployment.
 
-```bash
-ng serve
-```
+## 🚀 Key Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Dynamic Schedule**: Match data is automatically fetched and displayed.
+- **Sections**:
+  - **Csapatok**: Team information for various age groups.
+  - **Eredmények/Meccsek**: Match results and upcoming schedules.
+  - **Dokumentumok**: Public reports and transparency documents.
+  - **Galéria/Média**: Photos and event archives.
+  - **Kapcsolat**: Contact details and location.
 
-## Code scaffolding
+## Local Development
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Prerequisites
 
-```bash
-ng generate component component-name
-```
+- **Node.js** (v18 or higher recommended)
+- **npm**
+- **Python 3.x** (for running the data scraper)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Deployment Workflow
 
-```bash
-ng generate --help
-```
+The project is configured with **GitHub Actions** (`.github/workflows/deploy.yml`) to handle automated deployments:
 
-## Building
+1.  **Triggers**:
+    - Push to the `master` branch.
+    - Scheduled runs (Wednesdays and Sundays at 22:00 UTC) to ensure match results are up-to-date.
+2.  **Steps**:
+    - checkouts code.
+    - Runs `main.py` to fetch fresh data.
+    - Builds the Angular application.
+    - Deploys the artifacts to the production server via FTP.
 
-To build the project run:
+## 🛠️Tech Stack
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Framework**: [Angular](https://angular.io/)
+- **UI Library**: [Ionic Framework](https://ionicframework.com/)
+- **Scraping**: Python, [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/), [Requests](https://pypi.org/project/requests/)
+- **Tooling**: Angular CLI, TypeScript
