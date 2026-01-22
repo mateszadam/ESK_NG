@@ -1,6 +1,6 @@
 # ESK_NG - ESK Ménfőcsanak Labdarúgó Egyesület
 
-This is the source code for the official website of **Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület**. The application is built using **Angular** and **Ionic**, featuring automated data updates for match schedules.
+This is the source code for the official website of **Sza-Bi Qualit Ménfőcsanak Labdarúgó Egyesület**. The application is built using **Angular**, featuring automated data updates for match schedules.
 
 ## Project Overview
 
@@ -10,18 +10,12 @@ This is the source code for the official website of **Sza-Bi Qualit Ménfőcsana
 ## 🚀 Key Features
 
 - **Dynamic Schedule**: Match data is automatically fetched and displayed.
-- **Sections**:
-  - **Csapatok**: Team information for various age groups.
-  - **Eredmények/Meccsek**: Match results and upcoming schedules.
-  - **Dokumentumok**: Public reports and transparency documents.
-  - **Galéria/Média**: Photos and event archives.
-  - **Kapcsolat**: Contact details and location.
 
 ## Local Development
 
 ### Prerequisites
 
-- **Node.js** (v18 or higher recommended)
+- **Node.js**
 - **npm**
 - **Python 3.x** (for running the data scraper)
 
@@ -41,6 +35,5 @@ The project is configured with **GitHub Actions** (`.github/workflows/deploy.yml
 ## 🛠️Tech Stack
 
 - **Framework**: [Angular](https://angular.io/)
-- **UI Library**: [Ionic Framework](https://ionicframework.com/)
 - **Scraping**: Python, [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/), [Requests](https://pypi.org/project/requests/)
 - **Tooling**: Angular CLI, TypeScript
